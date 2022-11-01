@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 @layer components {
     .connectWalletBtn{
         @apply bg-blue-500 text-white font-bold py-2 px-4 rounded cursor-pointer
@@ -14,5 +18,8 @@
     }
     .card{
         @apply border border-gray-200 rounded-md p-5 bg-gray-50 cursor-pointer hover:bg-gray-100
+    }
+    .formField{
+        @apply border-2 border-gray-200 bg-white px-5 h-10 pr-16 rounded-lg text-sm outline-none
     }
 }
